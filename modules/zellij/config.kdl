@@ -12,6 +12,7 @@ keybinds clear-defaults=true {
       bind "Alt 7" { GoToTab 7; SwitchToMode "Locked"; }
       bind "Alt 8" { GoToTab 8; SwitchToMode "Locked"; }
       bind "Alt 9" { GoToTab 9; SwitchToMode "Locked"; }
+      bind "Alt f" { ToggleFocusFullscreen; SwitchToMode "Locked"; }
       bind "Alt w" { ToggleFloatingPanes; SwitchToMode "Locked"; }
       bind "Alt q" { CloseFocus; SwitchToMode "Locked"; }
       bind "Alt n" { NewPane; }
