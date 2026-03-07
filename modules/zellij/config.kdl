@@ -70,6 +70,6 @@ pane_frames false
 
 theme "tokyo-night"
 
-default_layout "compact"
+default_layout "sumi"
 
 default_mode "locked"
