@@ -40,6 +40,9 @@ keybinds clear-defaults=true {
 
     normal {
       bind "g" { SwitchToMode "Locked"; }
+      bind "a" {
+        ToggleActiveSyncTab
+      }
       bind "esc" { SwitchToMode "Locked"; }
 
       bind "=" "+" { Resize "Increase"; }
